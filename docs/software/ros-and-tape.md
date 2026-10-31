@@ -44,8 +44,8 @@ supports patching:
 >
 > — Cubbon 1977, p. 55
 
-APL's `)PATCH` command loads "an IMF or Tape Recovery program" from an IBM-supplied tape (the
-manual does not expand "IMF"); the same mechanism is what lets a field engineer alter
+APL's `)PATCH` command applies "IMFs (internal machine fix)" or recovers data after a tape
+error, from an IBM-supplied tape. The same mechanism is what lets a field engineer alter
 microcode behaviour without new ROS.
 
 ## Power-on sequence
@@ -60,12 +60,30 @@ From MIM §4:
 
 ## Tape
 
-The DC300 quarter-inch cartridge is the 5100's only persistent storage: **204 KB**, written in
-**512-byte records**. The 5106 adds a second drive in an external box.
+The 5100's only persistent storage is the **IBM data cartridge**, which the MIM describes
+(p. 4-30) as:
 
-APL sees tape through system commands added specifically for the device — `)MARK`, `)OUTSEL`,
+> "The data cartridge contains 300 feet (91.4 meters) of 1/4 inch (6.35 mm) tape and stores
+> 200K bytes of formatted data. The cartridge is keyed to prevent incorrect insertion in the
+> tape unit. Data files are protected when the file protect window is turned to the SAFE
+> position."
+
+Two notes on that description:
+
+- **"DC300" is a common identification, not an IBM term here.** The string `DC300` appears
+  nowhere in the 5100 manual set or in Cubbon's paper. What IBM specifies is 300 ft of ¼-inch
+  tape in a keyed cartridge — which matches the DC300 form factor, and later sources name it
+  that way. Treat the name as secondary.
+- **200K vs 204K.** The MIM says "200K bytes of formatted data" here, and "All tapes have 204K
+  bytes storage capacity" in its troubleshooting guide (p. 3-91). The likeliest reading is
+  200 KB usable on a 204 KB medium, but IBM does not say so. See
+  [../sources.md](../sources.md#8-tape-capacity).
+
+The 5106 auxiliary tape unit "stores up to 204K bytes of data" and uses the same cartridge and
+format. APL sees tape through system commands added for the device — `)MARK`, `)OUTSEL`,
 `)REWIND`, `)MODE`, `)PATCH` — and through `)SAVE`/`)LOAD` with device/file numbers replacing
-APLSV library numbers. A marked file's header needs 0.5 KB.
+APLSV library numbers. A marked file's header needs 0.5 KB, which the MIM warns must be
+considered when setting up files.
 
 Cross-generation compatibility, from the 5110 APL Reference (SA21-9303-0, "5110 Compatibility
 with the IBM 5100"):

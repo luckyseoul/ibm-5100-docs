@@ -25,7 +25,7 @@ From the **IBM 5100 Maintenance Information Manual** (SY31-0405-3, October 1979)
 > appears to have the attributes of the user's language, while each instruction is translated
 > into language that the system can use."
 
-*(MIM, pp. 4-12 and 4-20. Full quotations in [evidence.md](evidence.md).)*
+*(MIM, p. 4-12. Full quotations in [evidence.md](evidence.md).)*
 
 Note what "emulator" means here. It is IBM's word for **the microprogram that interprets the
 language implementation** — not for a hardware-level System/370 simulator. APL and BASIC are
@@ -67,7 +67,7 @@ intermediate-language instructions — in the case of APL, "System/370-like"  (l
 PALM microcode emulator  (< 10 KB ROS)
         │  plus three interface routines
         ▼
-5100 keyboard · 5" CRT · DC300 tape · 5103 printer
+5100 keyboard · 5" CRT · data cartridge · 5103 printer
 ```
 
 The three interface routines, per Cubbon (p. 54):

@@ -34,8 +34,8 @@ These are places where the sources genuinely disagree. They are recorded, not re
 - **"Put All Logic in Microcode"** — common in hobbyist writing and in the header comment of
   MAME's PALM device source.
 
-Neither expansion appears in the 5100 MIM's extracted text. The MIM calls it "the controller"
-and "the microprocessor".
+Neither expansion appears in the 5100 MIM's extracted text, and neither does the word
+"microprocessor": the MIM says only "the controller". "Microprocessor" is Cubbon's usage.
 
 ### 2. What PALM physically is
 
@@ -86,6 +86,21 @@ recorded as a discrepancy.
 - The IBM Archives page says only "September 1975".
 
 The 9 September date is a reasonable reading; the archival statement is the safer citation.
+
+### 8. Tape capacity
+
+- **200 KB** — MIM p. 4-30: "stores 200K bytes of formatted data".
+- **204 KB** — MIM p. 3-91: "All tapes have 204K bytes storage capacity".
+
+Both are IBM, in the same manual. Probably formatted capacity vs raw capacity, but the manual
+never says which, so this dossier quotes both rather than picking one.
+
+### 9. The "DC300" name
+
+`DC300` appears in no source in this corpus — not the MIM, the MAPs, the parts catalog, or
+Cubbon's paper — although it is the name used in most secondary writing and in the emulation
+community. IBM's own term is "IBM data cartridge", 300 ft of ¼-inch tape in a keyed shell. The
+identification is very probably right; it is nonetheless secondary, and is labelled as such.
 
 ## Verification log
 

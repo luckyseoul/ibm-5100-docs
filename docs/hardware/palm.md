@@ -1,8 +1,9 @@
 # PALM — the processor
 
 "PALM" is the name used in the literature for the 5100's processor. IBM's own 5100
-maintenance manual never uses the word: it calls the thing **the controller** or **the
-microprocessor**. That single fact explains a lot of the confusion around the machine.
+maintenance manual never uses the word — nor even "microprocessor": it calls the thing **the
+controller**, and nothing else. "Microprocessor" comes from Cubbon's 1977 design paper. That
+single fact explains a lot of the confusion around the machine.
 
 ---
 
@@ -48,10 +49,11 @@ here.
 | Clock (MAME) | 15,091,200 Hz machine clock | MAME `ibm5100.cpp` |
 | Cycles per instruction (MAME) | 17–54 | MAME `palm.h` |
 
-The commonly quoted "1.9 MHz" for the 5100 is best treated as an *effective* instruction rate
-rather than a master clock. With a 15.0912 MHz machine clock and multi-cycle instructions
-(17–54 in MAME), an effective rate in that region is consistent, but the manuals do not state
-a headline MHz figure. This is an inference, not a documented number.
+The commonly quoted "1.9 MHz" for the 5100 does not reconcile with MAME's figures: a
+15.0912 MHz machine clock divided by 17–54 cycles per instruction gives roughly **0.28–0.89
+MHz**, not 1.9. Either the quoted figure refers to something else (a microcycle rate, a
+different machine in the family), or MAME's timing is conservative. The manuals state no
+headline MHz figure. Flagged as unresolved rather than explained away.
 
 ## Instruction set
 

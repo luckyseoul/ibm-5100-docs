@@ -16,8 +16,10 @@ available with APL, BASIC, or both. The MIM's model table gives the naming schem
 | B1–B4 | BASIC | 16 / 32 / 48 / 64 KB |
 | C1–C4 | APL and BASIC | 16 / 32 / 48 / 64 KB |
 
-Dual-language machines have a front-panel toggle — on the 5100 it is the third toggle from the
-left, up for APL, down for BASIC.
+Dual-language machines (Model C) have a **BASIC-APL switch**; the MIM's operating procedure says
+only "Set the BASIC-APL switch to BASIC/APL, press RESTART", and describes the switch as present
+only on Model C. The frequently repeated detail that it is the third toggle from the left, up
+for APL and down for BASIC, is **not** in the 5100 manual and is not verified here.
 
 | Item | Value |
 |---|---|
@@ -26,7 +28,7 @@ left, up for APL, down for BASIC.
 | Main storage | 16, 32, 48 or 64 KB |
 | ROS | APL or BASIC interpreter ROS plus executable ROS; the mix depends on the model |
 | Display | 5-inch CRT, 16 lines × 64 characters |
-| Tape | DC300 quarter-inch cartridge, 204 KB, 512-byte records |
+| Tape | IBM data cartridge — 300 ft of ¼-inch tape, 512-byte records (commonly identified as the DC300) |
 | Printer | IBM 5103 (dot matrix), optional |
 | Second tape | IBM 5106 auxiliary tape unit, optional |
 | Weight | ~50 lb (23 kg) quoted; measured closer to 55 lb (25 kg) |
@@ -67,27 +69,64 @@ living in ROS (MIM, Functional Units).
 
 ## I/O map
 
-From the MIM section 4 device-address table, as implemented in MAME's `cpu_ioc_map`:
+From the MIM's IOCB description (p. 4-13), which defines the device address in byte 0 of every
+I/O control block:
 
-| Device address | Function |
+| Device address | Device |
 |---|---|
-| `0` | Device address 0 control (base I/O card) |
-| `1` | Non-executable ROS status / control (ROS select) |
-| `2`–`3` | (5110: executable ROS status/control) |
-| `4` | Keyboard status / control |
-| `5` | Printer: read not used, write control |
-| `6`–`7` | — |
-| `8` | Expansion feature: read status, write control |
-| `9`–`D` | — |
-| `E` | Tape: read status, write control |
-| `F` | Device address F control |
+| `00` | Video display and processor |
+| `01` | Common and language ROS |
+| `02`–`03` | Not used |
+| `04` | Keyboard |
+| `05` | Printer |
+| `06`–`09` | Not used |
+| `0A` | Serial I/O |
+| `0B` | Not used |
+| `0C` | Print plot |
+| `0D` | Not used |
+| `0E` | Tape drive |
+| `0F` | Not used |
+
+Byte 1 selects a tape **subdevice**: `80` internal, `40` external, `20` RPQ (second external),
+`10` subdevice 4, `08` subdevice 5, `04`–`01` subdevices 6–8 (not used). A footnote on the same
+page records a real constraint: the 5100 may have two auxiliary tape units attached, *or* one
+auxiliary tape unit and a printer — but **only two I/O devices total**.
+
+Byte 2 carries the command code, with separate code spaces for tape and printer. Tape commands:
+`00` sense, `01` read, `02` write, `03` write last, `04` find, `05` mark, `06` initialize and
+mark, `07` rewind, `08` forward space record, `09` backspace record, `0A` find next header,
+`0B` write header. Printer commands: `00` sense, `02` print, `03` print, `FD` diagnostic.
+Everything else in either space is invalid.
+
+### What MAME implements
+
+MAME's `cpu_ioc_map` is a subset and does not match the table above address for address:
+
+| Address | MAME | MIM |
+|---|---|---|
+| `0` | `da0_ctl_w` | video display and processor |
+| `1` | ROS status / control | common and language ROS |
+| `2`–`3` | `noprw` | not used (on the 5110: executable ROS) |
+| `4` | keyboard | keyboard |
+| `5` | printer write only | printer |
+| `6`–`7` | `noprw` | not used |
+| `8` | commented "expansion", not mapped | not used |
+| `9`–`D` | `noprw` | `0A` serial I/O, `0C` print plot |
+| `E` | `noprw` | tape drive |
+| `F` | `daf_ctl_w` | not used |
+
+So: the keyboard, ROS selection and display paths are modelled; serial I/O, print/plot and the
+tape drive are not, which is consistent with the driver's TODO list. Do not read MAME's map as
+the hardware's map.
 
 Interrupt levels are prioritised: **keyboard**, then **tape and printer**, then
 **communications and serial I/O**, then normal operations (Cubbon 1977, p. 55).
 
 ## Tape
 
-The DC300 cartridge holds 204 KB, written in 512-byte records. The MIM states it flatly — "All
+The IBM data cartridge is commonly identified as a DC300. It holds 204 KB, written in 512-byte
+records, though the MIM also says "200K bytes of formatted data" elsewhere — see
+[../sources.md](../sources.md#8-tape-capacity). The MIM states the capacity flatly — "All
 tapes have 204K bytes storage" — and the tape I/O microprogram writes one 512-byte record block
 at a time. APL system commands added for
 the device — `)MARK`, `)OUTSEL`, `)REWIND`, `)MODE`, `)PATCH` — are listed in the APL

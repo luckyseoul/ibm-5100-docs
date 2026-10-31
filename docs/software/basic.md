@@ -57,7 +57,7 @@ a primary source that establishes it, and the shipping manual points elsewhere. 
 
 ## What BASIC on a 5100 looks like
 
-- Single-user, interactive; programs and data on DC300 cartridge files opened with `OPEN`.
+- Single-user, interactive; programs and data on IBM data cartridge files opened with `OPEN`.
 - Statement numbers up to four digits, with 9990–9999 reserved for user-defined special
   functions.
 - 13-digit numeric precision, no lowercase, no double quotes — the keyboard is an APL-style

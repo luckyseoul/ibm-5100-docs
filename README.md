@@ -21,9 +21,9 @@ number, edition, date, byte size and (where fetched) a SHA-256 so a copy can be 
 | **CPU** | IBM **PALM** — a microcoded processor with a 16-bit data path |
 | **Memory** | 16 / 32 / 48 / 64 KB read/write storage, plus ROM ("ROS") holding the interpreters and microcode |
 | **Display** | 5-inch CRT, 16 lines × 64 characters |
-| **Storage** | DC300 quarter-inch cartridge tape, 204 KB per cartridge |
+| **Storage** | IBM data cartridge (DC300 form factor), 200–204 KB per cartridge |
 | **Languages** | APL, BASIC, or both (front-panel toggle on dual-language models) |
-| **Weight** | ~50 lb (≈25 kg) — "portable" in the luggable sense |
+| **Weight** | ~50 lb (≈23 kg) — "portable" in the luggable sense |
 | **Successors** | IBM 5110 (1978), IBM 5120 (1980) |
 
 The 5100 was the productised form of **SCAMP** (Special Computer APL Machine Portable),

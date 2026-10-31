@@ -77,7 +77,7 @@ world. The 5110's manual later notes that its added system variables (`⎕AI`, `
 - 5-inch screen, 16 lines of 64 characters, with the option to view half a line at a time.
 - The APL character set on a physical keyboard with APL legends; overstruck characters are
   part of the character-constant syntax.
-- Workspaces saved to DC300 cartridge rather than to a library on DASD.
+- Workspaces saved to data cartridge rather than to a library on DASD.
 - Printing via the 5103, or plotting via the Print Plot/APL feature (`SA21-9264`, not yet
   located — see the README's gap list).
 

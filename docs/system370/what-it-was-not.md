@@ -17,7 +17,7 @@ imply capabilities the machine never had. This page draws the boundary.
 | JCL / job entry / batch | No. Single interactive user. |
 | Multiprogramming / multi-terminal | No. Single user; APLSV's multi-terminal commands are explicitly unsupported. |
 | 3270 data stream | No. (The 5110's BSC/2770 link is a communications feature, not a display protocol stack.) |
-| Disk / DASD | No. DC300 tape on the 5100; the 5110 adds diskette. |
+| Disk / DASD | No. IBM data cartridge (DC300) tape on the 5100; the 5110 adds diskette. |
 | Card readers, line printers | No. 5103 matrix printer as an option. |
 
 The 5100's "370" is a **language implementation and its intermediate code**, re-hosted on a

@@ -26,7 +26,7 @@ Section 4, "Internal Operation of the 5100", subsection **Microprogramming**, p.
 > appears to have the attributes of the user's language, while each instruction is translated
 > into language that the system can use."
 
-Two paragraphs earlier, the manual lists what the microprograms are:
+In the same subsection, the manual lists what the microprograms are:
 
 > "The various microprograms that are used on the 5100 are the emulators (APL and BASIC); the
 > I/O controller interface (tape I/O, printer I/O, and keyboard I/O); the diagnostic control
@@ -64,7 +64,7 @@ register, logical register, and jump microinstructions.
 
 ### 1.4 The publication library
 
-The MIM's figure **"IBM 5100 Computing System Publications"** (p. 1-3 of the library section)
+The MIM's figure **"IBM 5100 Computing System Publications"** (p. 1-4 of the library section)
 is the authoritative list of the 5100's own manual set, and is reproduced in
 [../manuals.md](../manuals.md). It names: `1608314` (MAPs), `SY31-0405` (MIM),
 `SY31-0414` (5103 MIM), `SY31-0429` (async comm / serial I/O MIM), `SA21-9239` (serial I/O
@@ -74,11 +74,10 @@ introductions), `SA21-9217`/`SA21-9213` (BASIC/APL references), `SA21-9265`/`SA2
 
 ### 1.5 On the name "PALM"
 
-A negative finding worth recording: **the string "PALM" does not occur in the MIM's
-extracted text at all.** The manual consistently calls the processor "the controller" and
-the "microprocessor". This matches the secondary literature's note that IBM's maintenance
-documentation referred to the PALM module as the controller. Anyone citing "PALM" to the MIM
-is citing the literature around the manual, not the manual itself.
+A negative finding worth recording: **neither "PALM" nor "microprocessor" occurs in the
+MIM's extracted text at all** (0 hits for each). The manual calls the processor only "the
+controller". "Microprocessor" is *Cubbon's* word, in the 1977 paper. Anyone citing either term
+to the MIM is citing the literature around the manual, not the manual itself.
 
 ---
 
