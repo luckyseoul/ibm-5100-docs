@@ -25,7 +25,7 @@ From the **IBM 5100 Maintenance Information Manual** (SY31-0405-3, October 1979)
 > appears to have the attributes of the user's language, while each instruction is translated
 > into language that the system can use."
 
-*(MIM, pp. 4-11 and 4-19. Full quotations in [evidence.md](evidence.md).)*
+*(MIM, pp. 4-12 and 4-20. Full quotations in [evidence.md](evidence.md).)*
 
 Note what "emulator" means here. It is IBM's word for **the microprogram that interprets the
 language implementation** — not for a hardware-level System/370 simulator. APL and BASIC are
@@ -92,7 +92,7 @@ a desktop's I/O, with a microcoded interpreter standing in for the mainframe.**
 
 ## 3. Language-level compatibility, in IBM's shipping manuals
 
-Two appendices were printed in the customer documentation:
+The same two appendices appear in the customer documentation for each family:
 
 | Manual | Appendix | Subject |
 |---|---|---|
@@ -106,6 +106,21 @@ implementation differs from the mainframe one." They are the strongest evidence 
 compatibility with the System/370 **language implementations** was a designed, advertised
 property — and also the strongest evidence that the 5100 was not the mainframe: the
 differences are all about being a single-user machine with a screen and a tape drive.
+
+### Other 370 touchpoints (none of which are emulation)
+
+- **Components.** "The read/write memory is used in IBM System/370 and System/32" (Cubbon 1977,
+  p. 53) — a parts-bin lineage, not an architectural one.
+- **Terminal emulation.** The Communications Adapter makes the 5100 appear as an IBM 2741
+  terminal to a remote system (SA21-9215-0).
+- **Follow-on communications.** The 5110's Binary Synchronous Communications and 2770 data link
+  control let it talk to a System/370 "equipped with the appropriate subfeatures"
+  (GA21-9300-0).
+- **Language references.** The 5100 manuals cite *APL Language* (GC26-3847) and *APL Shared
+  Variables User's Guide* (SH20-1460-1), both System/370 documents.
+
+Four different senses of "370" — language, components, terminal, communications — and none of
+them is "the 5100 is a 370". Keeping them apart is most of the argument.
 
 ## 4. What the 5100 cannot do
 

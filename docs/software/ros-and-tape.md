@@ -15,7 +15,7 @@ language emulator — all microcode, all in ROM, all documented in the MIM.
 | BASIC non-executable ROS | BASIC interpreter | C4 |
 | APL non-executable ROS | APL interpreter | C2, D2, D4 |
 
-MIM §4 (p. 4-19) describes the selection:
+MIM §4 (p. 4-20) describes the selection:
 
 > "APL, BASIC and common ROS share a common address bus. To select one of the three ROS
 > spaces, the controller must execute a control instruction using device address 01. The data
@@ -39,7 +39,7 @@ controller as it issues control instructions, not by a memory-management unit.
 Because the processor can fetch from either executable ROS or read/write storage, the design
 supports patching:
 
-> "This also makes possible the patch capability which allows changes to the logic flow by
+> "It also makes possible the patch capability which allows changes to the logic flow by
 > superceding portions of ROM instructions with instructions in read/write storage."
 >
 > — Cubbon 1977, p. 55

@@ -20,8 +20,9 @@ labelled with their source.
 - **Late June 1974** — the GSD-Rochester team begins "the formal task of writing an emulator
   and the necessary higher-level code to interface the 370 APL interpreter with the 5100
   keyboard, display, tape and printer." *(Cubbon 1977, p. 54.)*
-- **September 1974** — IBM's internal goal: APLSV, not the 1130 APL, becomes the language to
-  ship. The "last change made in the design plan". *(Cubbon 1977, p. 52.)*
+- **First half of 1974** — after rejecting two 1130 APL implementations, the team adopts APLSV,
+  "the last change made in the design plan". Cubbon gives no month for this decision. *(Cubbon
+  1977, pp. 52–53.)*
 - **December 1974** — the APL system is running, after about six months and "three people's
   effort". Final testing and ROM manufacture take under a year. *(Cubbon 1977, p. 54.)*
 

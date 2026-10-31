@@ -108,12 +108,28 @@ Identified from IBM's own publication lists but not found in any public archive.
 
 | Part no. | Title | Where it is referenced |
 |---|---|---|
-| `SA21-9264` | IBM 5100 Print Plot/APL User's Manual | MIM SY31-0405-3, "IBM 5100 Computing System Publications" |
-| `SA21-9265` | IBM 5100 Print Plot/BASIC User's Manual | MIM SY31-0405-3, "IBM 5100 Computing System Publications" |
+| `SA21-9264` | IBM 5100 Print/Plot APL User's Manual | MIM SY31-0405-3, "IBM 5100 Computing System Publications" |
+| `SA21-9265` | IBM 5100 Print/Plot BASIC User's Manual | MIM SY31-0405-3, "IBM 5100 Computing System Publications" |
 | `GX21-9214` | IBM 5100 APL Reference Card | SA21-9213-2, Related Publications |
 | `GX21-9218` | IBM 5100 BASIC Reference Card | SA21-9217-3, Related Publications |
-| `S131-0598` | IBM 5103 Printer Parts Catalog | MIM SY31-0405-3, publications figure |
-| `S131-060x` | IBM 5106 Auxiliary Tape Unit Parts Catalog | MIM SY31-0405-3, publications figure (number partially legible) |
+| `S131-0598` | IBM 5103 Printer Parts Catalog | MIM SY31-0405-3, "IBM 5100 Computing System Publications" |
+| `S131-060x` | IBM 5106 Auxiliary Tape Unit Parts Catalog | MIM SY31-0405-3, "IBM 5100 Computing System Publications" (number partially legible) |
+| `GA21-9383` | IBM 5110 Operator's Guide | GH30-0232-1 (IBM 5110/5120 Computing Systems Bibliography) |
+| `SA21-9305` | IBM 5110 Print/Plot APL User's Manual | GH30-0232-1 (IBM 5110/5120 Computing Systems Bibliography) |
+| `SA21-9310` | IBM 5110 Print/Plot BASIC User's Manual | GH30-0232-1 (IBM 5110/5120 Computing Systems Bibliography) |
+| `SA21-9312` | IBM 5110 Serial I/O Adapter Feature User's Manual | GH30-0232-1 (IBM 5110/5120 Computing Systems Bibliography) |
+| `SA21-9313` | IBM 5110 Parallel I/O Adapter Feature User's Manual | GH30-0232-1 (IBM 5110/5120 Computing Systems Bibliography) |
+| `SA21-9314` | IBM 5110 Asynchronous Communications Feature User's Manual | GH30-0232-1 (IBM 5110/5120 Computing Systems Bibliography) |
+| `SA21-9316` | IBM 5110 Binary Synchronous Communications Feature User's Manual | GH30-0232-1 (IBM 5110/5120 Computing Systems Bibliography) |
+| `SA21-9318` | IBM 5110 Computing System Setup Procedure | GH30-0232-1 (IBM 5110/5120 Computing Systems Bibliography) |
+| `GX21-9315` | IBM 5110 Asynchronous Communications Feature Reference Card | GH30-0232-1 (IBM 5110/5120 Computing Systems Bibliography) |
+| `GX21-9329` | IBM 5110 Binary Synchronous Communications Reference Card | GH30-0232-1 (IBM 5110/5120 Computing Systems Bibliography) |
+| `SR30-0311` | Introduction to Programming the IBM 5110 Computer System in APL | GH30-0232-1 (IBM 5110/5120 Computing Systems Bibliography) |
+| `GA34-0130` | IBM 5120 Computing System General Information and Site Preparation Manual | GH30-0232-1 (IBM 5110/5120 Computing Systems Bibliography) |
+| `GA34-0132` | IBM 5120 Computing System Operator's Guide | GH30-0232-1 (IBM 5110/5120 Computing Systems Bibliography) |
+| `SY34-0194` | IBM 5120 Computing System Maintenance Analysis Procedures | GH30-0232-1 (IBM 5110/5120 Computing Systems Bibliography) |
+| `G280-0176` | IBM 5120 Computing System Proposal | GH30-0232-1 (IBM 5110/5120 Computing Systems Bibliography) |
+| `SR10-0587` | Introduction to Programming the IBM 5120 Computer System in APL | GH30-0232-1 (IBM 5110/5120 Computing Systems Bibliography) |
 
 ---
 

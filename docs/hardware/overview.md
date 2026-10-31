@@ -34,7 +34,7 @@ left, up for APL, down for BASIC.
 
 The display has a front-panel switch to show all 64 characters of a line, or only the left or
 right 32 characters with spaces between. A second switch displays the first 512 bytes of main
-memory in hexadecimal for diagnostics. The video output can also drive an external monitor via
+memory in hexadecimal for diagnostics (MIM). The video output can also drive an external monitor via
 a BNC connector (vertical scan fixed at 60 Hz), and the internal display can be switched
 white-on-black or black-on-white.
 
@@ -44,7 +44,7 @@ PALM can directly address 64 KB. Because some configurations hold more than 64 K
 executable ROS plus RAM, the design uses bank switching, and the language interpreters live in
 a **separate ROS address space that PALM treats as a peripheral** rather than as memory.
 
-Per the MIM (p. 4-19):
+Per the MIM (p. 4-20):
 
 - **Executable ROS** holds the bring-up diagnostic, the I/O control microprograms for tape and
   printer, the IPL supervisor, and the APL/BASIC **language emulator microprograms**.
@@ -87,7 +87,9 @@ Interrupt levels are prioritised: **keyboard**, then **tape and printer**, then
 
 ## Tape
 
-The DC300 cartridge holds 204 KB, written in 512-byte records. APL system commands added for
+The DC300 cartridge holds 204 KB, written in 512-byte records. The MIM states it flatly — "All
+tapes have 204K bytes storage" — and the tape I/O microprogram writes one 512-byte record block
+at a time. APL system commands added for
 the device — `)MARK`, `)OUTSEL`, `)REWIND`, `)MODE`, `)PATCH` — are listed in the APL
 Reference Manual Appendix D. The file header for a marked file needs 0.5 KB.
 

@@ -498,10 +498,10 @@ manuals:
   notes: System/3 reference card set.
 missing:
 - part_number: SA21-9264
-  title: IBM 5100 Print Plot/APL User's Manual
+  title: IBM 5100 Print/Plot APL User's Manual
   reference: MIM SY31-0405-3, "IBM 5100 Computing System Publications"
 - part_number: SA21-9265
-  title: IBM 5100 Print Plot/BASIC User's Manual
+  title: IBM 5100 Print/Plot BASIC User's Manual
   reference: MIM SY31-0405-3, "IBM 5100 Computing System Publications"
 - part_number: GX21-9214
   title: IBM 5100 APL Reference Card
@@ -511,7 +511,55 @@ missing:
   reference: SA21-9217-3, Related Publications
 - part_number: S131-0598
   title: IBM 5103 Printer Parts Catalog
-  reference: MIM SY31-0405-3, publications figure
+  reference: MIM SY31-0405-3, "IBM 5100 Computing System Publications"
 - part_number: S131-060x
   title: IBM 5106 Auxiliary Tape Unit Parts Catalog
-  reference: MIM SY31-0405-3, publications figure (number partially legible)
+  reference: MIM SY31-0405-3, "IBM 5100 Computing System Publications" (number partially legible)
+- part_number: GA21-9383
+  title: IBM 5110 Operator's Guide
+  reference: GH30-0232-1 (IBM 5110/5120 Computing Systems Bibliography)
+- part_number: SA21-9305
+  title: IBM 5110 Print/Plot APL User's Manual
+  reference: GH30-0232-1 (IBM 5110/5120 Computing Systems Bibliography)
+- part_number: SA21-9310
+  title: IBM 5110 Print/Plot BASIC User's Manual
+  reference: GH30-0232-1 (IBM 5110/5120 Computing Systems Bibliography)
+- part_number: SA21-9312
+  title: IBM 5110 Serial I/O Adapter Feature User's Manual
+  reference: GH30-0232-1 (IBM 5110/5120 Computing Systems Bibliography)
+- part_number: SA21-9313
+  title: IBM 5110 Parallel I/O Adapter Feature User's Manual
+  reference: GH30-0232-1 (IBM 5110/5120 Computing Systems Bibliography)
+- part_number: SA21-9314
+  title: IBM 5110 Asynchronous Communications Feature User's Manual
+  reference: GH30-0232-1 (IBM 5110/5120 Computing Systems Bibliography)
+- part_number: SA21-9316
+  title: IBM 5110 Binary Synchronous Communications Feature User's Manual
+  reference: GH30-0232-1 (IBM 5110/5120 Computing Systems Bibliography)
+- part_number: SA21-9318
+  title: IBM 5110 Computing System Setup Procedure
+  reference: GH30-0232-1 (IBM 5110/5120 Computing Systems Bibliography)
+- part_number: GX21-9315
+  title: IBM 5110 Asynchronous Communications Feature Reference Card
+  reference: GH30-0232-1 (IBM 5110/5120 Computing Systems Bibliography)
+- part_number: GX21-9329
+  title: IBM 5110 Binary Synchronous Communications Reference Card
+  reference: GH30-0232-1 (IBM 5110/5120 Computing Systems Bibliography)
+- part_number: SR30-0311
+  title: Introduction to Programming the IBM 5110 Computer System in APL
+  reference: GH30-0232-1 (IBM 5110/5120 Computing Systems Bibliography)
+- part_number: GA34-0130
+  title: IBM 5120 Computing System General Information and Site Preparation Manual
+  reference: GH30-0232-1 (IBM 5110/5120 Computing Systems Bibliography)
+- part_number: GA34-0132
+  title: IBM 5120 Computing System Operator's Guide
+  reference: GH30-0232-1 (IBM 5110/5120 Computing Systems Bibliography)
+- part_number: SY34-0194
+  title: IBM 5120 Computing System Maintenance Analysis Procedures
+  reference: GH30-0232-1 (IBM 5110/5120 Computing Systems Bibliography)
+- part_number: G280-0176
+  title: IBM 5120 Computing System Proposal
+  reference: GH30-0232-1 (IBM 5110/5120 Computing Systems Bibliography)
+- part_number: SR10-0587
+  title: Introduction to Programming the IBM 5120 Computer System in APL
+  reference: GH30-0232-1 (IBM 5110/5120 Computing Systems Bibliography)

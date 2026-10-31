@@ -10,7 +10,7 @@ images where the scan is poor; corrections are limited to obvious character erro
 
 ### 1.1 The machine emulates the language, not the mainframe
 
-Section 4, "Internal Operation of the 5100", subsection **Microprogramming**, p. 4-11:
+Section 4, "Internal Operation of the 5100", subsection **Microprogramming**, p. 4-12:
 
 > "An internal machine program controls the 5100. This internal machine program consists of
 > several microprograms, which the 5100 controller uses to accomplish given tasks. Because the
@@ -34,7 +34,7 @@ Two paragraphs earlier, the manual lists what the microprograms are:
 
 ### 1.2 Where the language interpreters physically live
 
-Section 4, **ROS**, p. 4-19:
+Section 4, **ROS**, p. 4-20:
 
 > "The microprograms stored in ROS are directly executed by the controller; they control the
 > operation of the 5100. Executable ROS contains the bring up diagnostic, the I/O control

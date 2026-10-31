@@ -28,7 +28,7 @@ no `)OFF`/`)PORTS`/`)MSG*`, and a workspace small enough that `WS TOO BIG` is a 
 
 ## 3. "I want to run one"
 
-MAME is the only maintained public emulator for the 5100 family. Its driver covers the
+MAME is the maintained public emulator verified for this dossier. Its driver covers the
 **5100 and 5110** (not the 5120), with a PALM CPU core and disassembler.
 
 What you need:
@@ -77,8 +77,8 @@ printer paths are not. You can run the machine, not yet round-trip a workspace c
    and a modern assembler, and the VCF forum thread on a PALM side-scroller. See
    [community.md](community.md).
 
-There is no surviving IBM PALM assembler in the public corpus; the community tooling is
-reverse-engineered.
+No IBM PALM assembler is known to this repository in the public corpus; the community
+tooling is reverse-engineered.
 
 ## 5. "I want to settle the System/370 question myself"
 
@@ -89,7 +89,7 @@ Read in this order, and stop when you are convinced:
    instructions" sentence.
 3. **Cubbon 1977, p. 54** — the three interface routines and the "only differences" claim.
 4. **SA21-9213-2 Appendix D, p. 206** — the shipped compatibility statement.
-5. **MIM §4, pp. 4-11 and 4-19** — what "emulator" means to IBM.
+5. **MIM §4, pp. 4-12 and 4-20** — what "emulator" means to IBM.
 6. **[system370/what-it-was-not.md](system370/what-it-was-not.md)** — the XT/370 contrast, for
    what a real desktop 370 emulator looks like.
 
@@ -105,7 +105,7 @@ instruction is executed by which piece of hardware. There is no answer, and that
 - **Editions and TNLs**: manuals were revised by Technical Newsletters (TNLs) and re-issued.
   The `-N` suffix is the edition. A later edition obsoletes earlier ones but earlier ones
   sometimes document removed features.
-- **Page numbers restart per section**: `4-11` means section 4, page 11. Appendix pages are
+- **Page numbers restart per section**: `4-12` means section 4, page 12. Appendix pages are
   `C-1`, `D-1`.
 - **Figures carry the value**: the publications library, the ROS card layout and the device
   address table are figures, not prose. OCR drops them; look at the page images.

@@ -24,7 +24,7 @@ If you have one:
 
 Good corrections look like:
 
-- "The MIM says X on page 4-19; the dossier says Y" — with the quotation.
+- "The MIM says X on page 4-20; the dossier says Y" — with the quotation.
 - "This claim is sourced only to Wikipedia, here is the IBM document that settles it."
 - "These two sources conflict; here is a third that explains why."
 
@@ -35,7 +35,7 @@ that deletes an inconvenient conflicting source.
 
 1. **Primary sources win.** IBM manuals, IBM technical papers, IBM Archives. Secondary sources
    are allowed but must be labelled as such.
-2. **Page numbers.** Cite the printed page (`4-19`, `C-1`, `p. 206`), not the PDF page index.
+2. **Page numbers.** Cite the printed page (`4-20`, `C-1`, `p. 206`), not the PDF page index.
 3. **Record conflicts.** If two sources disagree, add the disagreement to
    [docs/sources.md](docs/sources.md#known-conflicts) rather than choosing silently.
 4. **No scans in the tree.** Link and checksum; do not commit PDFs.

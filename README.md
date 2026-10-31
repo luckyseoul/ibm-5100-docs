@@ -110,16 +110,20 @@ Maintenance Information Manual (MIM, figure "IBM 5100 Computing System Publicati
 related publications, System/3 references relevant to the BASIC lineage, and modern
 emulation/community sources.
 
-**Known missing from the manifest** (identified by IBM but not found digitised):
+**Known missing from the manifest** — 22 publications IBM itself lists but that are not in any
+archive this dossier could find. They are tabulated at the end of
+[docs/manuals.md](docs/manuals.md#known-ibm-publications-not-located). The 5100-specific ones:
 
-- `SA21-9264` — IBM 5100 Print Plot/APL User's Manual
-- `SA21-9265` — IBM 5100 Print Plot/BASIC User's Manual
+- `SA21-9264` — IBM 5100 Print/Plot APL User's Manual
+- `SA21-9265` — IBM 5100 Print/Plot BASIC User's Manual
 - `GX21-9214` — IBM 5100 APL Reference Card
 - `GX21-9218` — IBM 5100 BASIC Reference Card
 - `S131-0598` — IBM 5103 Printer Parts Catalog
 - `S131-060x` — IBM 5106 Auxiliary Tape Unit Parts Catalog (number partially legible in the MIM)
 
-If you have any of these, that is the single most useful contribution you can make.
+The remaining 16 are 5110/5120 manuals, feature manuals and reference cards, taken from IBM's
+own 5110/5120 bibliography. If you have any of them, that is the single most useful
+contribution you can make.
 
 **Not claimed:** that this list is exhaustive against IBM's internal publication register.
 It is exhaustive against the sources that are publicly identifiable today, and it names the

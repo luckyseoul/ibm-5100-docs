@@ -48,9 +48,10 @@ here.
 | Clock (MAME) | 15,091,200 Hz machine clock | MAME `ibm5100.cpp` |
 | Cycles per instruction (MAME) | 17–54 | MAME `palm.h` |
 
-The commonly quoted "1.9 MHz" for the 5100 is an *effective* instruction rate, not the master
-clock. With a 15.0912 MHz machine clock and multi-cycle instructions, an effective rate in
-that region is consistent, but the manuals do not state a single headline MHz figure.
+The commonly quoted "1.9 MHz" for the 5100 is best treated as an *effective* instruction rate
+rather than a master clock. With a 15.0912 MHz machine clock and multi-cycle instructions
+(17–54 in MAME), an effective rate in that region is consistent, but the manuals do not state
+a headline MHz figure. This is an inference, not a documented number.
 
 ## Instruction set
 

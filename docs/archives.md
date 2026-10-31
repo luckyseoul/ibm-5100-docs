@@ -1,7 +1,7 @@
 # Archives: where the scans live
 
-The 5100 corpus survives mainly because of **bitsavers**, a volunteer archive that has been
-scanning IBM General Systems Division manuals since the late 1990s. Knowing the directory
+The 5100 corpus survives mainly because of **bitsavers**, a volunteer archive that has
+been scanning IBM General Systems Division manuals for decades. Knowing the directory
 layout is most of the battle: the most important document about the System/370 question is not
 filed under `5100/` at all.
 
@@ -14,7 +14,7 @@ Base: <https://bitsavers.org/pdf/ibm/>
 | Directory | Contents | Files |
 |---|---|---|
 | [`5100/`](https://bitsavers.org/pdf/ibm/5100/) | the 5100 manual set: APL/BASIC introductions and references, MIM, MAPs, parts catalog, communications, serial I/O, shared-variable primer | 12 |
-| [`5110/`](https://bitsavers.org/pdf/ibm/5110/) | 5110 and 5114: general information, APL/BASIC manuals, MIM, maintenance analysis, async comms, bibliography | 15 |
+| [`5110/`](https://bitsavers.org/pdf/ibm/5110/) | 5110 and 5114: general information, APL/BASIC manuals, MIM, maintenance analysis, async comms, bibliography | 16 |
 | [`5120/`](https://bitsavers.org/pdf/ibm/5120/) | 5120 maintenance and logic manuals | 2 |
 | [`5103/`](https://bitsavers.org/pdf/ibm/5103/) | 5103 printer maintenance | 1 |
 | [`apl/`](https://bitsavers.org/pdf/ibm/apl/) | **the 1977 Cubbon design paper**, APL\360 and APLSV language references, the APL shared-variables guide, "An APL Emulator" (1972), "Microcoding APL: The 370/135 APL Assist" | many |
@@ -79,8 +79,8 @@ no recursive mirroring, and don't re-host the scans.
 
 ## What is still missing
 
-Known IBM publications that are not in the public corpus (see the README's gap list for the
-full set):
+22 IBM publications are identified but not in the public corpus; the full table is at the end
+of [manuals.md](manuals.md#known-ibm-publications-not-located). The 5100-specific six:
 
 - `SA21-9264` — IBM 5100 Print Plot/APL User's Manual
 - `SA21-9265` — IBM 5100 Print Plot/BASIC User's Manual
@@ -96,6 +96,6 @@ If you own any of these, a scan donated to bitsavers is worth more than any code
 Cite the IBM order number and edition first, the scan second:
 
 > IBM Corporation, *IBM 5100 Maintenance Information Manual*, SY31-0405-3, Fourth Edition,
-> October 1979, p. 4-19. Scan: bitsavers.org/pdf/ibm/5100/.
+> October 1979, p. 4-20. Scan: bitsavers.org/pdf/ibm/5100/.
 
 That survives link rot and lets a reader find the same page in a different scan.
