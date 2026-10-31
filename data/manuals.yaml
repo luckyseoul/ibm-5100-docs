@@ -1,0 +1,517 @@
+schema: 1
+generated: '2026-10-31'
+source: bitsavers.org (mirror of the IBM General Systems Division manual set)
+manuals:
+- id: 1608314_ibm_5100_maintenance_analysis_procedures_mar1976
+  family: ibm-5100
+  part_number: '1608314'
+  title: IBM 5100 Maintenance Analysis Procedures (MAPs)
+  date: 1976-03
+  doc_type: maintenance
+  publisher: IBM
+  url: https://bitsavers.org/pdf/ibm/5100/1608314_IBM_5100_Maintenance_Analysis_Procedures_Mar1976.pdf
+  filename: 1608314_IBM_5100_Maintenance_Analysis_Procedures_Mar1976.pdf
+  bytes: 9827346
+  sha256: f29392a6f7e171fc054223dbb28b4eb94aa427eb58c2b290eb73ce4195e51903
+  server_mtime: 2019-01-25 12:03
+  server_size: 9.4M
+- id: ibm_5100_shared_variable_primer_apr1976
+  family: ibm-5100
+  part_number: '07.607'
+  title: IBM 5100 Shared Variable Primer
+  date: 1976-04
+  doc_type: technical-report
+  publisher: IBM
+  url: https://bitsavers.org/pdf/ibm/5100/IBM_5100_Shared_Variable_Primer_Apr1976.pdf
+  filename: IBM_5100_Shared_Variable_Primer_Apr1976.pdf
+  bytes: 1375817
+  sha256: b92f1e24182cb7fdec00807e5e4b506c74f81eb302ea578ab40ff47e13c8edb8
+  server_mtime: 2019-01-25 14:12
+  server_size: 1.3M
+  notes: 'Technical Report 07.607, General Systems Division, Rochester MN. Author: Andrew J. Cubbon. Supplements
+    SA21-9213 chapter 8.'
+- id: s131-0599-3_ibm_5100_portable_computer_parts_catalog_nov1976
+  family: ibm-5100
+  part_number: S131-0599-3
+  title: IBM 5100 Portable Computer Parts Catalog
+  date: 1976-11
+  edition: 3rd
+  doc_type: parts-catalog
+  publisher: IBM
+  url: https://bitsavers.org/pdf/ibm/5100/S131-0599-3_IBM_5100_Portable_Computer_Parts_Catalog_Nov1976.pdf
+  filename: S131-0599-3_IBM_5100_Portable_Computer_Parts_Catalog_Nov1976.pdf
+  bytes: 4079633
+  sha256: 702afe19240ba2135a08672585d20fbc5c83c17946da252dbe947d8ded2ea8da
+  server_mtime: 2019-01-25 11:21
+  server_size: 3.9M
+- id: sa21-9212-1_ibm_5100_apl_introduction_dec1975
+  family: ibm-5100
+  part_number: SA21-9212-1
+  title: IBM 5100 APL Introduction
+  date: 1975-12
+  edition: 2nd
+  doc_type: introduction
+  publisher: IBM
+  url: https://bitsavers.org/pdf/ibm/5100/SA21-9212-1_IBM_5100_APL_Introduction_Dec1975.pdf
+  filename: SA21-9212-1_IBM_5100_APL_Introduction_Dec1975.pdf
+  bytes: 7126203
+  sha256: ae61b6fdbdd8f36570f4e4fe0b0f5fc05d2baefdf699b0765a5c512e68ade860
+  server_mtime: 2019-01-25 11:41
+  server_size: 6.8M
+- id: sa21-9213-0_ibm_5100_apl_reference_manual_aug1975
+  family: ibm-5100
+  part_number: SA21-9213-0
+  title: IBM 5100 APL Reference Manual
+  date: 1975-08
+  edition: 1st
+  doc_type: reference
+  publisher: IBM
+  url: https://bitsavers.org/pdf/ibm/5100/SA21-9213-0_IBM_5100_APL_Reference_Manual_Aug1975.pdf
+  filename: SA21-9213-0_IBM_5100_APL_Reference_Manual_Aug1975.pdf
+  server_mtime: 2001-10-06 14:13
+  server_size: 8.9M
+- id: sa21-9213-2_ibm_5100_apl_reference_manual_may1976
+  family: ibm-5100
+  part_number: SA21-9213-2
+  title: IBM 5100 APL Reference Manual
+  date: 1976-05
+  edition: 3rd
+  doc_type: reference
+  publisher: IBM
+  url: https://bitsavers.org/pdf/ibm/5100/SA21-9213-2_IBM_5100_APL_Reference_Manual_May1976.pdf
+  filename: SA21-9213-2_IBM_5100_APL_Reference_Manual_May1976.pdf
+  bytes: 12076027
+  sha256: 81793cbcd813408a943f70f6a9db338cacce930e47691e1c27b2519ffa2725cd
+  server_mtime: 2019-01-25 11:34
+  server_size: 12M
+  notes: 'Contains Appendix D: "5100 APL Compatibility with IBM APLSV".'
+- id: sa21-9215-0_ibm_5100_communications_reference_manual_sep1975
+  family: ibm-5100
+  part_number: SA21-9215-0
+  title: IBM 5100 Communications Reference Manual
+  date: 1975-09
+  edition: 1st
+  doc_type: communications
+  publisher: IBM
+  url: https://bitsavers.org/pdf/ibm/5100/SA21-9215-0_IBM_5100_Communications_Reference_Manual_Sep1975.pdf
+  filename: SA21-9215-0_IBM_5100_Communications_Reference_Manual_Sep1975.pdf
+  bytes: 1812562
+  sha256: 3af03f5a7e8c716b3300abaebcacc89b3cc350a94368f0598423f3ae7e3dee38
+  server_mtime: 2003-01-17 21:48
+  server_size: 1.7M
+- id: sa21-9216-1_ibm_5100_basic_introduction_dec1975
+  family: ibm-5100
+  part_number: SA21-9216-1
+  title: IBM 5100 BASIC Introduction
+  date: 1975-12
+  edition: 2nd
+  doc_type: introduction
+  publisher: IBM
+  url: https://bitsavers.org/pdf/ibm/5100/SA21-9216-1_IBM_5100_BASIC_Introduction_Dec1975.pdf
+  filename: SA21-9216-1_IBM_5100_BASIC_Introduction_Dec1975.pdf
+  bytes: 6937596
+  sha256: 035aacd94f8e4ff811104f43c81d18b796b1dfa4b80598ecc9f049c0bf4f1eee
+  server_mtime: 2019-01-25 11:27
+  server_size: 6.6M
+- id: sa21-9217-3_ibm_5100_basic_reference_manual_jul1977
+  family: ibm-5100
+  part_number: SA21-9217-3
+  title: IBM 5100 BASIC Reference Manual
+  date: 1977-07
+  edition: 4th
+  doc_type: reference
+  publisher: IBM
+  url: https://bitsavers.org/pdf/ibm/5100/SA21-9217-3_IBM_5100_BASIC_Reference_Manual_Jul1977.pdf
+  filename: SA21-9217-3_IBM_5100_BASIC_Reference_Manual_Jul1977.pdf
+  bytes: 12905952
+  sha256: 3788d818925536d5c6e286784007afeb4e9b4328f55d6c6020ce3d849c80b37c
+  server_mtime: 2019-01-25 12:50
+  server_size: 12M
+  notes: Contains "5100 BASIC Compatibility With IBM 370/VS BASIC" (p. 143).
+- id: sa21-9239-1_ibm_5100_serial_io_adapter_feature_users_manual_jan1977
+  family: ibm-5100
+  part_number: SA21-9239-1
+  title: IBM 5100 Serial I/O Adapter Feature User's Manual
+  date: 1977-01
+  edition: 2nd
+  doc_type: feature-manual
+  publisher: IBM
+  url: https://bitsavers.org/pdf/ibm/5100/SA21-9239-1_IBM_5100_Serial_IO_Adapter_Feature_Users_Manual_Jan1977.pdf
+  filename: SA21-9239-1_IBM_5100_Serial_IO_Adapter_Feature_Users_Manual_Jan1977.pdf
+  bytes: 5611868
+  sha256: 837871ab2c139f44a58b845da1ed1749968ab0b79578ee26c6c7878904ca0da9
+  server_mtime: 2019-01-25 11:24
+  server_size: 5.4M
+- id: sy31-0405-3_ibm_5100_maintenance_information_manual_oct1979
+  family: ibm-5100
+  part_number: SY31-0405-3
+  title: IBM 5100 Maintenance Information Manual
+  date: 1979-10
+  edition: 4th
+  doc_type: maintenance
+  publisher: IBM
+  url: https://bitsavers.org/pdf/ibm/5100/SY31-0405-3_IBM_5100_Maintenance_Information_Manual_Oct1979.pdf
+  filename: SY31-0405-3_IBM_5100_Maintenance_Information_Manual_Oct1979.pdf
+  bytes: 36608972
+  sha256: 494bd4a901b0335a36e58b19e23ccb6381e433295949f73e57d8c71c94da023d
+  server_mtime: 2019-01-25 11:19
+  server_size: 35M
+  notes: Primary hardware reference. Section 4 "Internal Operation of the 5100" describes the controller,
+    microprogramming and the APL/BASIC emulators; Appendix C documents the PALM instruction set; Appendix
+    D the microcode.
+- id: sy31-0429-2_ibm_5100_communications_serial_io_maintenance_information_manual_oct1976
+  family: ibm-5100
+  part_number: SY31-0429-2
+  title: IBM 5100 Communications / Serial I/O Maintenance Information Manual
+  date: 1976-10
+  doc_type: maintenance
+  publisher: IBM
+  url: https://bitsavers.org/pdf/ibm/5100/SY31-0429-2_IBM_5100_Communications_Serial_IO_Maintenance_Information_Manual_Oct1976.pdf
+  filename: SY31-0429-2_IBM_5100_Communications_Serial_IO_Maintenance_Information_Manual_Oct1976.pdf
+  bytes: 5237696
+  sha256: e31ee201e96247a723eb2640486d698d885c5f3d4268124d00a85ab84a9705d8
+  server_mtime: 2019-01-25 11:18
+  server_size: 5.0M
+- id: ga21-9300-0_ibm_5110_general_information_manual_dec1977
+  family: ibm-5110
+  part_number: GA21-9300-0
+  title: IBM 5110 General Information and Physical Planning Manual
+  date: 1977-12
+  doc_type: general-information
+  publisher: IBM
+  url: https://bitsavers.org/pdf/ibm/5110/GA21-9300-0_IBM_5110_General_Information_Manual_Dec1977.pdf
+  filename: GA21-9300-0_IBM_5110_General_Information_Manual_Dec1977.pdf
+  bytes: 2263626
+  sha256: efc1162f2ff0946f1e2c7330cbfcc8ecdf1cc6a452475082db6e2625a67e5492
+  server_mtime: 2011-01-29 22:52
+  server_size: 2.2M
+- id: gh30-0232-1_ibm_5110_5120_computing_systems_bibliography_sep1980
+  family: ibm-5110
+  part_number: GH30-0232-1
+  title: IBM 5110/5120 Computing Systems Bibliography
+  date: 1980-09
+  edition: 2nd
+  doc_type: bibliography
+  publisher: IBM
+  url: https://bitsavers.org/pdf/ibm/5110/GH30-0232-1_IBM_5110_5120_Computing_Systems_Bibliography_Sep1980.pdf
+  filename: GH30-0232-1_IBM_5110_5120_Computing_Systems_Bibliography_Sep1980.pdf
+  bytes: 3169345
+  sha256: 9ce36b14f69d23f6c55268d519a9414851817414ab7f098137aad0d323ae4cf0
+  server_mtime: 2011-01-25 11:10
+  server_size: 3.0M
+  notes: IBM's own annotated list of publications for the 5110/5120 family, with order numbers and abstracts.
+- id: s131-0626-1_ibm_5114_diskette_parts_catalog_sep1978
+  family: ibm-5110
+  part_number: S131-0626-1
+  title: IBM 5114 Diskette Parts Catalog
+  date: 1978-09
+  doc_type: parts-catalog
+  publisher: IBM
+  url: https://bitsavers.org/pdf/ibm/5110/S131-0626-1_IBM_5114_Diskette_Parts_Catalog_Sep1978.pdf
+  filename: S131-0626-1_IBM_5114_Diskette_Parts_Catalog_Sep1978.pdf
+  server_mtime: 2019-01-25 14:23
+  server_size: 3.9M
+- id: sa21-9301-0_ibm_5110_apl_introduction_dec1977
+  family: ibm-5110
+  part_number: SA21-9301-0
+  title: IBM 5110 APL Introduction
+  date: 1977-12
+  doc_type: introduction
+  publisher: IBM
+  url: https://bitsavers.org/pdf/ibm/5110/SA21-9301-0_IBM_5110_APL_Introduction_Dec1977.pdf
+  filename: SA21-9301-0_IBM_5110_APL_Introduction_Dec1977.pdf
+  server_mtime: 2019-01-25 15:42
+  server_size: 4.5M
+- id: sa21-9302-1_ibm_5110_apl_users_guide_aug1978
+  family: ibm-5110
+  part_number: SA21-9302-1
+  title: IBM 5110 APL User's Guide
+  date: 1978-08
+  doc_type: user-guide
+  publisher: IBM
+  url: https://bitsavers.org/pdf/ibm/5110/SA21-9302-1_IBM_5110_APL_Users_Guide_Aug1978.pdf
+  filename: SA21-9302-1_IBM_5110_APL_Users_Guide_Aug1978.pdf
+  server_mtime: 2019-01-25 15:42
+  server_size: 6.3M
+- id: sa21-9303-0_ibm_5110_apl_reference_manual_dec1977
+  family: ibm-5110
+  part_number: SA21-9303-0
+  title: IBM 5110 APL Reference Manual
+  date: 1977-12
+  doc_type: reference
+  publisher: IBM
+  url: https://bitsavers.org/pdf/ibm/5110/SA21-9303-0_IBM_5110_APL_Reference_Manual_Dec1977.pdf
+  filename: SA21-9303-0_IBM_5110_APL_Reference_Manual_Dec1977.pdf
+  bytes: 11144354
+  sha256: d42701569b9890df2ab2833228b625d85fe3eb5955a0a6055a7b3bce0fb6e57a
+  server_mtime: 2019-01-25 15:42
+  server_size: 11M
+  notes: 'Appendix E: "5110 APL Compatibility with IBM APLSV".'
+- id: sa21-9306-0_ibm_5110_basic_introduction_jan1978
+  family: ibm-5110
+  part_number: SA21-9306-0
+  title: IBM 5110 BASIC Introduction
+  date: 1978-01
+  doc_type: introduction
+  publisher: IBM
+  url: https://bitsavers.org/pdf/ibm/5110/SA21-9306-0_IBM_5110_BASIC_Introduction_Jan1978.pdf
+  filename: SA21-9306-0_IBM_5110_BASIC_Introduction_Jan1978.pdf
+  server_mtime: 2019-01-25 14:21
+  server_size: 9.8M
+- id: sa21-9307-0_ibm_5110_basic_users_guide_dec1977
+  family: ibm-5110
+  part_number: SA21-9307-0
+  title: IBM 5110 BASIC User's Guide
+  date: 1977-12
+  doc_type: user-guide
+  publisher: IBM
+  url: https://bitsavers.org/pdf/ibm/5110/SA21-9307-0_IBM_5110_BASIC_Users_Guide_Dec1977.pdf
+  filename: SA21-9307-0_IBM_5110_BASIC_Users_Guide_Dec1977.pdf
+  server_mtime: 2012-07-20 21:47
+  server_size: 7.2M
+- id: sa21-9307-2_ibm_5110_basic_users_guide_apr1979
+  family: ibm-5110
+  part_number: SA21-9307-2
+  title: IBM 5110 BASIC User's Guide
+  date: 1979-04
+  doc_type: user-guide
+  publisher: IBM
+  url: https://bitsavers.org/pdf/ibm/5110/SA21-9307-2_IBM_5110_BASIC_Users_Guide_Apr1979.pdf
+  filename: SA21-9307-2_IBM_5110_BASIC_Users_Guide_Apr1979.pdf
+  server_mtime: 2019-01-25 15:55
+  server_size: 8.5M
+- id: sa21-9308-0_ibm_5110_basic_reference_manual_jan1978
+  family: ibm-5110
+  part_number: SA21-9308-0
+  title: IBM 5110 BASIC Reference Manual
+  date: 1978-01
+  doc_type: reference
+  publisher: IBM
+  url: https://bitsavers.org/pdf/ibm/5110/SA21-9308-0_IBM_5110_BASIC_Reference_Manual_Jan1978.pdf
+  filename: SA21-9308-0_IBM_5110_BASIC_Reference_Manual_Jan1978.pdf
+  server_mtime: 2012-07-20 21:47
+  server_size: 8.0M
+- id: sa21-9308-2_ibm_5110_basic_reference_manual_apr1979
+  family: ibm-5110
+  part_number: SA21-9308-2
+  title: IBM 5110 BASIC Reference Manual
+  date: 1979-04
+  doc_type: reference
+  publisher: IBM
+  url: https://bitsavers.org/pdf/ibm/5110/SA21-9308-2_IBM_5110_BASIC_Reference_Manual_Apr1979.pdf
+  filename: SA21-9308-2_IBM_5110_BASIC_Reference_Manual_Apr1979.pdf
+  bytes: 10234448
+  sha256: e610bdc83fc6855ad597f2fc68dc252802242a51f580f16d719a33fce6a8564f
+  server_mtime: 2019-01-25 15:55
+  server_size: 9.8M
+  notes: Contains "5110 BASIC Compatibility with IBM 370/VS BASIC" (p. 201).
+- id: sa21-9311-1_custsupfn_oct1978
+  family: ibm-5110
+  part_number: SA21-9311-1
+  title: IBM 5110 Customer Support Functions
+  date: 1978-10
+  doc_type: feature-manual
+  publisher: IBM
+  url: https://bitsavers.org/pdf/ibm/5110/SA21-9311-1_CustSupFn_Oct1978.pdf
+  filename: SA21-9311-1_CustSupFn_Oct1978.pdf
+  server_mtime: 2001-09-20 19:03
+  server_size: 5.0M
+- id: sy31-0550-2_ibm_5110_computer_maintenance_information_manual_feb1979
+  family: ibm-5110
+  part_number: SY31-0550-2
+  title: IBM 5110 Computer Maintenance Information Manual
+  date: 1979-02
+  doc_type: maintenance
+  publisher: IBM
+  url: https://bitsavers.org/pdf/ibm/5110/SY31-0550-2_IBM_5110_Computer_Maintenance_Information_Manual_Feb1979.pdf
+  filename: SY31-0550-2_IBM_5110_Computer_Maintenance_Information_Manual_Feb1979.pdf
+  server_mtime: 2019-01-25 16:58
+  server_size: 24M
+- id: sy31-0551-1_ibm_5114_diskette_unit_mainenance_jan1979
+  family: ibm-5110
+  part_number: SY31-0551-1
+  title: IBM 5114 Diskette Unit Maintenance
+  date: 1979-01
+  doc_type: maintenance
+  publisher: IBM
+  url: https://bitsavers.org/pdf/ibm/5110/SY31-0551-1_IBM_5114_Diskette_Unit_Mainenance_Jan1979.pdf
+  filename: SY31-0551-1_IBM_5114_Diskette_Unit_Mainenance_Jan1979.pdf
+  server_mtime: 2019-01-25 14:16
+  server_size: 7.5M
+- id: sy31-0553-2_ibm_5110_system_maintenance_analysis_procedures_jan1979
+  family: ibm-5110
+  part_number: SY31-0553-2
+  title: IBM 5110 System Maintenance Analysis Procedures
+  date: 1979-01
+  doc_type: maintenance
+  publisher: IBM
+  url: https://bitsavers.org/pdf/ibm/5110/SY31-0553-2_IBM_5110_System_Maintenance_Analysis_Procedures_Jan1979.pdf
+  filename: SY31-0553-2_IBM_5110_System_Maintenance_Analysis_Procedures_Jan1979.pdf
+  server_mtime: 2019-01-25 14:14
+  server_size: 13M
+- id: sy31-0557-0_5110asynccomm_jan1978
+  family: ibm-5110
+  part_number: SY31-0557-0
+  title: IBM 5110 Asynchronous Communications
+  date: 1978-01
+  doc_type: communications
+  publisher: IBM
+  url: https://bitsavers.org/pdf/ibm/5110/SY31-0557-0_5110asyncComm_Jan1978.pdf
+  filename: SY31-0557-0_5110asyncComm_Jan1978.pdf
+  server_mtime: 2006-03-04 09:16
+  server_size: 2.3M
+- id: sy34-0192-0_5120maint_dec79
+  family: ibm-5120
+  part_number: SY34-0192-0
+  title: IBM 5120 Computing System Maintenance Information Manual
+  date: 1979-12
+  doc_type: maintenance
+  publisher: IBM
+  url: https://bitsavers.org/pdf/ibm/5120/SY34-0192-0_5120maint_Dec79.pdf
+  filename: SY34-0192-0_5120maint_Dec79.pdf
+  server_mtime: 2006-03-04 09:12
+  server_size: 11M
+- id: sy34-0193-0_ibm_5120_computing_system_logic_manual_197912
+  family: ibm-5120
+  part_number: SY34-0193-0
+  title: IBM 5120 Computing System Logic Manual
+  date: 1979-12
+  doc_type: logic-manual
+  publisher: IBM
+  url: https://bitsavers.org/pdf/ibm/5120/SY34-0193-0_IBM_5120_Computing_System_Logic_Manual_197912.pdf
+  filename: SY34-0193-0_IBM_5120_Computing_System_Logic_Manual_197912.pdf
+  bytes: 1758644
+  sha256: 7a2460b9ddc40ad212d767a9cadb136aaf6e40c6b32bc2fffd14b9f7dba33a54
+  server_mtime: 2021-09-29 18:57
+  server_size: 1.7M
+  notes: Block diagrams label the executable ROS contents "Interpreters and Emulators".
+- id: sy31-0414-3_5103_printer_maintenance_197902
+  family: ibm-5103
+  part_number: SY31-0414-3
+  title: IBM 5103 Printer Maintenance Information Manual
+  date: 1979-02
+  doc_type: maintenance
+  publisher: IBM
+  url: https://bitsavers.org/pdf/ibm/5103/SY31-0414-3_5103_Printer_Maintenance_197902.pdf
+  filename: SY31-0414-3_5103_Printer_Maintenance_197902.pdf
+  bytes: 5565990
+  sha256: 39b031035c8cbe00c219e23a71306322af31dce7fade213e8ce4bc8dbab89452
+  server_mtime: 2024-04-20 22:08
+  server_size: 5.3M
+- id: 5100_portable_computer_design_jan77
+  family: supporting
+  title: The IBM 5100 Portable Computer Design
+  date: 1977-01
+  doc_type: conference-paper
+  publisher: IBM
+  url: https://bitsavers.org/pdf/ibm/apl/5100_Portable_Computer_Design_Jan77.pdf
+  filename: 5100_Portable_Computer_Design_Jan77.pdf
+  bytes: 468072
+  sha256: 3865525cc7ba4cfb611982b038b8a3ac530bcef30dde3f038393238f7f54b544
+  notes: A. J. Cubbon, IBM GSD-Rochester. APL ITL Symposium, Endicott NY, 11-13 January 1977, Vol. 2,
+    pp. P51-P56. Marked "IBM Internal Use Only". The clearest account of why APLSV was chosen and how
+    the 370-APL emulator was written.
+- id: an_apl_emulator_jun72
+  family: supporting
+  title: An APL Emulator
+  date: 1972-06
+  doc_type: technical-report
+  publisher: IBM
+  url: https://bitsavers.org/pdf/ibm/apl/An_APL_Emulator_Jun72.pdf
+  filename: An_APL_Emulator_Jun72.pdf
+  bytes: 5804184
+  sha256: 0018f17f766b8a93bb9123352564bb1c052dcd5cb6332c5e20f6b00bd62feec2
+  notes: A. Hassitt and L. E. Lyon, IBM Palo Alto Scientific Center, 20 June 1972. Scan is marked IBM
+    Confidential and is hosted publicly by bitsavers; cited here as pre-5100 APL-emulation context.
+- id: zz20-6433_microcoding_apl_the_370_135_apl_assist_jan77
+  family: supporting
+  part_number: ZZ20-6433
+  title: 'Microcoding APL: The 370/135 APL Assist'
+  date: 1977-01
+  doc_type: technical-report
+  publisher: IBM
+  url: https://bitsavers.org/pdf/ibm/apl/ZZ20-6433_Microcoding_APL_The_370_135_APL_Assist_Jan77.pdf
+  filename: ZZ20-6433_Microcoding_APL_The_370_135_APL_Assist_Jan77.pdf
+  bytes: 5805881
+  sha256: ff1b4a6ad42511df285c31d11c14acf7e06ada4cc55117cce773a3cdec81a3d5
+  notes: IBM microcode-level APL support on the System/370 Model 135. Shows the 370 side of the microcoded-APL
+    idea the 5100 implements in miniature.
+- id: gc26-3847-1_apl_language_feb76
+  family: supporting
+  part_number: GC26-3847-1
+  title: APL Language
+  date: 1976-02
+  doc_type: reference
+  publisher: IBM
+  url: https://bitsavers.org/pdf/ibm/apl/GC26-3847-1_APL_Language_Feb76.pdf
+  filename: GC26-3847-1_APL_Language_Feb76.pdf
+  bytes: 6789954
+  sha256: a6dabec908007ac8f9b99fe725feba66cca40a8b2d977e54485aa0a9c19df822
+  notes: The System/370 APL language reference cited by SA21-9213 as a related publication.
+- id: gc26-3847-2_apl_language_jun76
+  family: supporting
+  part_number: GC26-3847-2
+  title: APL Language
+  date: 1976-06
+  doc_type: reference
+  publisher: IBM
+  url: https://bitsavers.org/pdf/ibm/apl/GC26-3847-2_APL_Language_Jun76.pdf
+  filename: GC26-3847-2_APL_Language_Jun76.pdf
+  bytes: 7703087
+  sha256: 2489af2462205456acb491d709d0f88e73d5ea90964344da91b06775a3254dbd
+  notes: Later revision of the APL language reference.
+- id: sh20-1460-1_apl_shared_variables_users_guide_mar75
+  family: supporting
+  part_number: SH20-1460-1
+  title: APL Shared Variables User's Guide
+  date: 1975-03
+  doc_type: reference
+  publisher: IBM
+  url: https://bitsavers.org/pdf/ibm/apl/SH20-1460-1_APL_Shared_Variables_Users_Guide_Mar75.pdf
+  filename: SH20-1460-1_APL_Shared_Variables_Users_Guide_Mar75.pdf
+  bytes: 3602137
+  sha256: 983e2557d132a98c4d3e5e2b6c8bc1b6f15f39f93bf7b4f3f7e7ba64bb8c0d2d
+  notes: Documents APLSV, the System/370 APL implementation whose language the 5100 reproduces.
+- id: gc20-8080-6_system3_bibliography_sep71
+  family: supporting
+  part_number: GC20-8080-6
+  title: IBM System/3 Bibliography
+  date: 1971-09
+  doc_type: bibliography
+  publisher: IBM
+  url: https://bitsavers.org/pdf/ibm/system3/GC20-8080-6_System3_Bibliography_Sep71.pdf
+  filename: GC20-8080-6_System3_Bibliography_Sep71.pdf
+  bytes: 3210821
+  sha256: 8e426924d670ab930e4d2da46dc1e7b1050dd10b8f80065ed0750f606158fd89
+  notes: System/3 publication list; context for claims about 5100 BASIC lineage.
+- id: s229-8032-1_ibm_system3_reference_summary_197807
+  family: supporting
+  part_number: S229-8032-1
+  title: IBM System/3 Reference Summary
+  date: 1978-07
+  doc_type: reference
+  publisher: IBM
+  url: https://bitsavers.org/pdf/ibm/system3/S229-8032-1_IBM_System3_Reference_Summary_197807.pdf
+  filename: S229-8032-1_IBM_System3_Reference_Summary_197807.pdf
+  bytes: 10603157
+  sha256: bea390b2d007f09aaa82313bfc86aa9d6c91a5df8602f4b4f8661ac63c86eba7
+  notes: System/3 reference card set.
+missing:
+- part_number: SA21-9264
+  title: IBM 5100 Print Plot/APL User's Manual
+  reference: MIM SY31-0405-3, "IBM 5100 Computing System Publications"
+- part_number: SA21-9265
+  title: IBM 5100 Print Plot/BASIC User's Manual
+  reference: MIM SY31-0405-3, "IBM 5100 Computing System Publications"
+- part_number: GX21-9214
+  title: IBM 5100 APL Reference Card
+  reference: SA21-9213-2, Related Publications
+- part_number: GX21-9218
+  title: IBM 5100 BASIC Reference Card
+  reference: SA21-9217-3, Related Publications
+- part_number: S131-0598
+  title: IBM 5103 Printer Parts Catalog
+  reference: MIM SY31-0405-3, publications figure
+- part_number: S131-060x
+  title: IBM 5106 Auxiliary Tape Unit Parts Catalog
+  reference: MIM SY31-0405-3, publications figure (number partially legible)

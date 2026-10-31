@@ -1,0 +1,125 @@
+schema: 1
+generated: '2026-10-31'
+notes: 'External links cited in docs/. known_blocked marks sites that refuse automated access (Cloudflare or equivalent);
+  linkcheck reports them without failing the build.
+
+  '
+links:
+- id: mame-ibm5100
+  title: MAME driver — IBM 5100/5110
+  url: https://github.com/mamedev/mame/blob/master/src/mame/ibm/ibm5100.cpp
+  kind: source-code
+- id: mame-palm
+  title: MAME PALM CPU device
+  url: https://github.com/mamedev/mame/tree/master/src/devices/cpu/palm
+  kind: source-code
+- id: mame-repo
+  title: MAME repository
+  url: https://github.com/mamedev/mame
+  kind: source-code
+- id: bitsavers-5100
+  title: bitsavers — IBM 5100 directory
+  url: https://bitsavers.org/pdf/ibm/5100/
+  kind: archive
+- id: bitsavers-5110
+  title: bitsavers — IBM 5110 directory
+  url: https://bitsavers.org/pdf/ibm/5110/
+  kind: archive
+- id: bitsavers-5120
+  title: bitsavers — IBM 5120 directory
+  url: https://bitsavers.org/pdf/ibm/5120/
+  kind: archive
+- id: bitsavers-5103
+  title: bitsavers — IBM 5103 directory
+  url: https://bitsavers.org/pdf/ibm/5103/
+  kind: archive
+- id: bitsavers-apl
+  title: bitsavers — IBM APL directory (includes the 1977 Cubbon paper)
+  url: https://bitsavers.org/pdf/ibm/apl/
+  kind: archive
+- id: bitsavers-system3
+  title: bitsavers — IBM System/3 directory
+  url: https://bitsavers.org/pdf/ibm/system3/
+  kind: archive
+- id: ia-bitsavers-search
+  title: Internet Archive — bitsavers IBM 5100 items
+  url: https://archive.org/search?query=bitsavers+ibm+5100
+  kind: archive
+- id: ibm-archives-5100
+  title: IBM Archives — IBM 5100 Portable Computer (Wayback capture)
+  url: https://web.archive.org/web/20181225172459/https://www.ibm.com/ibm/history/exhibits/pc/pc_2.html
+  kind: vendor-archive
+- id: ibm-hursley-hw-list
+  title: IBM Hursley Museum — IBM hardware announcements to 1987 (PDF, Wayback capture; site TLS is broken)
+  url: https://web.archive.org/web/20241014115210/https://ibmhursleymuseum.info/docs/hardware_list_to_1987.pdf
+  kind: vendor-archive
+- id: si-scamp
+  title: Smithsonian — IBM SCAMP prototype (Wayback capture; si.edu blocks automated access)
+  url: https://web.archive.org/web/20240201185534/https://www.si.edu/object/nmah_334628
+  kind: museum
+- id: chm-catalog
+  title: Computer History Museum — collection catalog
+  url: https://www.computerhistory.org/collections/catalog/
+  kind: museum
+- id: wikipedia-ibm5100
+  title: Wikipedia — IBM 5100
+  url: https://en.wikipedia.org/wiki/IBM_5100
+  kind: secondary
+- id: wikipedia-palm
+  title: Wikipedia — IBM PALM processor
+  url: https://en.wikipedia.org/wiki/IBM_PALM_processor
+  kind: secondary
+- id: wikipedia-titor
+  title: Wikipedia — John Titor
+  url: https://en.wikipedia.org/wiki/John_Titor
+  kind: secondary
+- id: wikipedia-xt370
+  title: Wikipedia — PC-based IBM mainframe-compatible systems (XT/370)
+  url: https://en.wikipedia.org/wiki/PC-based_IBM_mainframe-compatible_systems
+  kind: secondary
+- id: aplwiki-5100
+  title: APL Wiki — APL 5100
+  url: https://aplwiki.com/wiki/APL_5100
+  kind: secondary
+  known_blocked: true
+- id: rcs-codebreaking
+  title: Retrocomputing Stack Exchange — Was the IBM 5100 ever used for codebreaking?
+  url: https://retrocomputing.stackexchange.com/questions/7005/was-the-ibm-5100-ever-used-for-codebreaking
+  kind: discussion
+  known_blocked: true
+- id: hackaday-5100
+  title: Hackaday — Bringing APL to the Masses
+  url: https://hackaday.com/2023/12/19/bringing-apl-to-the-masses-the-history-of-the-ibm-5100/
+  kind: article
+- id: abortretry-5100
+  title: Bradford Morgan White — The History of the IBM 5100
+  url: https://www.abortretry.fail/p/the-history-of-the-ibm-5100
+  kind: article
+- id: voidstar-5100
+  title: voidstar — IBM 5100 Personal Computer
+  url: https://voidstar.blog/ibm-5100-personal-computer/
+  kind: article
+- id: rcf-thread
+  title: Retrocomputing Forum — All about the IBM 5100 (PALM code, DCP, assembler)
+  url: https://retrocomputingforum.com/t/all-about-the-ibm-5100-from-1975-also-ibm-5106-and-ibm-5110/2977
+  kind: forum
+- id: deskthority-thread
+  title: Deskthority — IBM 5100 Portable Computer restoration thread
+  url: https://deskthority.net/viewtopic.php?t=20163
+  kind: forum
+- id: vcf-side-scroller
+  title: VCF Forum — IBM 5100 Side Scroller (new PALM machine code)
+  url: https://forum.vcfed.org/index.php?threads/ibm-5100-side-scroller-presentation-new-palm-machine-code.1253061/
+  kind: forum
+- id: youtube-lewis-palm
+  title: Exploring IBM 5100 P.A.L.M. with Steve Lewis
+  url: https://www.youtube.com/watch?v=JIJNrBaTenM
+  kind: video
+- id: oldcomputers-5100
+  title: oldcomputers.net — IBM 5100
+  url: http://oldcomputers.net/ibm5100.html
+  kind: article
+- id: oldcomputermuseum-5100
+  title: oldcomputermuseum.com — IBM 5100
+  url: https://www.oldcomputermuseum.com/ibm_5100.html
+  kind: article
