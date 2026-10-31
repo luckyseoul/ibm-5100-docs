@@ -73,6 +73,19 @@ Titor thread.
 4. **The claim is unfalsifiable by construction.** The persona's many-worlds framing made
    wrong predictions non-disqualifying.
 
+## Could it have worked?
+
+The 5100 had 64 KB of address space and a 200 KB tape cartridge. Emulating a System/370 well
+enough to debug mainframe programs needs a general-purpose CPU, a much larger store, and a
+compiler. IBM's own later attempt — the 1983 XT/370 — needed three custom cards and 512 KiB on
+top of a PC to reach 0.1 MIPS
+([what-it-was-not.md](what-it-was-not.md)).
+
+If you want to see what the claim *would* look like if it were true, the companion project
+[titor370](https://github.com/luckyseoul/titor370) implements it: a System/370 interpreter and an
+S/370-to-C translator whose output is verified against the interpreter. It runs on a laptop,
+which is the honest measure of the distance between the myth and the machine.
+
 ## How to answer it, briefly
 
 > The 5100 ran APLSV — IBM's System/370 APL implementation — on a microcoded emulator, and IBM

@@ -91,6 +91,9 @@ Full treatment with quotations and page references:
   articles. Labelled by how well each is verified.
 - **[docs/faq.md](docs/faq.md)** — short answers, including the myths.
 - **[docs/sources.md](docs/sources.md)** — citation rules and confidence levels.
+- **[docs/titor370.md](docs/titor370.md)** — the companion software project: a working
+  System/370 interpreter and S/370-to-C translator, built precisely because the 5100 could
+  not do this.
 
 ## Quick start
 
