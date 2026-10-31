@@ -30,13 +30,32 @@ The Titor claim had two halves, and this dossier only settles one:
 
 | Claim | Verdict | Where |
 |---|---|---|
-| The 5100 could "emulate IBM System/370 mainframes" | **False.** It ran APLSV on a microcoded interpreter; no 370 instruction ever executed. | [system370/README.md](system370/README.md) |
+| The 5100 could "emulate IBM System/370 mainframes" | **False**, in the sense that matters: no System/370 *system*. It ran APLSV on a microcoded interpreter whose intermediate stream Cubbon calls "System/370-like" — a language implementation, not a machine. | [system370/README.md](system370/README.md) |
 | The 5100 could "translate [370] machine code and more modern languages" | **Never existed.** But it is *buildable*, and now it has been built. | [titor370](https://github.com/luckyseoul/titor370) |
 
 Putting the two side by side is the point. The real machine had 64 KB of address space, a 200 KB
 tape cartridge, and one language at a time. The thing the story described needs a general-purpose
 CPU, a megabyte-scale store, and a compiler — which is why it is a laptop program now and could
 never have been a 1975 desktop.
+
+## What the review changed
+
+`titor370` has since been reviewed against **Hercules**, a mature System/370 emulator, by an
+independent reviewer. The review found a dozen genuine misreadings of the Principles of
+Operation — `MR`'s multiplicand, `DR`'s quotient/remainder order, `MVN`/`MVZ`, `SLR`'s
+condition code, `TRT`'s registers, `SLA`'s sign handling among them. All were re-checked
+against the manual and fixed, and the response is recorded in
+[titor370's REVIEW.md](https://github.com/luckyseoul/titor370/blob/main/REVIEW.md).
+
+That episode is worth recording here for a reason that is not about emulation: the tests and
+the implementation were wrong *together*, so a passing test suite proved nothing until an
+outside oracle disagreed. The same discipline applies to this dossier — a claim repeated in
+two of my own documents is not thereby corroborated.
+
+One claim in this dossier was corrected as a result. "No System/370 instruction ever executed"
+was too strong: the 5100's microcode did interpret an intermediate stream that its designer
+calls "System/370-like". The accurate statement, now used throughout, is that the machine did
+not emulate a System/370 *system*.
 
 ## Provenance
 

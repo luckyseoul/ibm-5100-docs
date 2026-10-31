@@ -89,8 +89,10 @@ which is the honest measure of the distance between the myth and the machine.
 ## How to answer it, briefly
 
 > The 5100 ran APLSV — IBM's System/370 APL implementation — on a microcoded emulator, and IBM
-> documented that in 1977. It did not emulate a System/370 computer: no 370 instructions, no
-> operating system, no channels, no virtual storage. The "undocumented 370 emulator" is a
+> documented that in 1977. It did not emulate a System/370 computer: no operating system, no
+> channels, no virtual storage, and no architectural commitment to the 370 instruction set —
+> what its microcode interpreted was the intermediate stream the APL interpreter needed,
+> described by its designer as "System/370-like". The "undocumented 370 emulator" is a
 > 2000-vintage internet story wrapped around a real, obscure, and fully documented design
 > decision.
 

@@ -52,10 +52,13 @@ Three separate facts get collapsed into one myth:
    months of work, error-free.
 
 3. **"The 5100 emulates an IBM System/370 mainframe" — false.**
-   There is no System/370 instruction set, no OS/VS, no JCL, no channel subsystem, no virtual
-   storage, no multiprogramming. The machine is single-user, runs one language at a time, and
-   its "emulator" is an interpreter for the APLSV intermediate language plus three interface
-   routines (keyboard/display supervisor, command processor, I/O processor).
+   There is no OS/VS, no JCL, no channel subsystem, no virtual storage, no multiprogramming,
+   and no System/370 *machine*. What the microcode interprets is the intermediate stream the
+   APL interpreter needs, which Cubbon describes as "System/370-like" — a language
+   implementation re-hosted on a desktop, not an architectural emulation. The machine is
+   single-user and runs one language at a time; its "emulator" is an interpreter for that
+   intermediate language plus three interface routines (keyboard/display supervisor, command
+   processor, I/O processor).
 
 The "undocumented ability" framing comes from the **John Titor** internet hoax (2000–2001)
 and was popularised by *Steins;Gate* as the "IBN 5100". The capability is obscure, not
